@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background: #e0d4bb;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 40px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+input[type="text"]:focus {
+  background: #c6bca6;
+  outline: none;
+  color: #f2f2f2;
+}
+
+.search-button {
+  color: white;
+  background-color: tomato;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: none;
+}
